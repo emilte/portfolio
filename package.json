@@ -1,41 +1,42 @@
 {
-  "name": "portfolio",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview",
-    "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
-    "lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
-    "lint": "yarn lint:format && yarn lint:fix ",
-    "type-check": "tsc"
-  },
-  "dependencies": {
-    "path": "^0.12.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.2"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
-    "@typescript-eslint/eslint-plugin": "^5.41.0",
-    "@typescript-eslint/parser": "^5.41.0",
-    "@vitejs/plugin-react": "^2.1.0",
-    "cypress": "^10.10.0",
-    "eslint": "^8.26.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.10",
-    "eslint-plugin-simple-import-sort": "^8.0.0",
-    "pre-commit": "^1.2.2",
-    "prettier": "^2.7.1",
-    "sass": "^1.55.0",
-    "typescript": "^4.8.4",
-    "vite": "^3.1.8"
-  },
-  "pre-commit": "lint",
-  "license": "MIT"
+	"name": "portfolio",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"serve": "vite preview",
+		"lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
+		"lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
+		"lint": "yarn lint:format && yarn lint:fix ",
+		"type-check": "tsc"
+	},
+	"dependencies": {
+		"@splinetool/loader": "^0.9.130",
+		"@splinetool/react-spline": "^2.2.3",
+		"@splinetool/runtime": "^0.9.130",
+		"path": "^0.12.7",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.4.2"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.22",
+		"@types/react-dom": "^18.0.7",
+		"@typescript-eslint/eslint-plugin": "^5.41.0",
+		"@typescript-eslint/parser": "^5.41.0",
+		"@vitejs/plugin-react": "^2.1.0",
+		"cypress": "^10.10.0",
+		"eslint": "^8.26.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.31.10",
+		"eslint-plugin-simple-import-sort": "^8.0.0",
+		"prettier": "^2.7.1",
+		"sass": "^1.55.0",
+		"typescript": "^4.8.4",
+		"vite": "^3.1.8"
+	},
+	"license": "MIT"
 }
